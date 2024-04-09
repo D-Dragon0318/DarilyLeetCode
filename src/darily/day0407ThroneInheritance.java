@@ -12,7 +12,7 @@ import java.util.*;
  */
 
 
-public class testThroneInheritance {
+public class day0407ThroneInheritance {
     //给每个方法添加一个测试
     @Test
     public void testG() {

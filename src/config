@@ -1,0 +1,42 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/D-Dragon0318/DarilyLeetCode
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[user]
+	name = spridra
+	email = 2394527308@qq.com
+
+
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "gitee"]
+	url = https://gitee.com/bella_drew_a_picture/hm-dianping.git
+	fetch = +refs/heads/*:refs/remotes/gitee/*
+[branch "master"]
+	remote = gitee
+	merge = refs/heads/master
+[user]
+	name = spridra
+	email = 2394527308@qq.com
+[remote "github"]
+	url = https://github.com/D-Dragon0318/hm-dianping.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[branch "init"]
+	remote = github
+	merge = refs/heads/init
